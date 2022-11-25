@@ -20,13 +20,13 @@ public class Test {
 		Path filePath1 = Path.of("/home/marek/Dokumente/IT/aocREADMEfiller/aocREADMEfiller/READMEtemp.md");
 		String temp = Files.readString(filePath1);
 
-		Path filePath2 = Path.of("/home/marek/Dokumente/IT/AdventOfCode2022/Tag01/src/Tag1.java");
+		Path filePath2 = Path.of("/home/marek/Dokumente/IT/AdventOfCode2022/Tag" + String.format("%02d", day) + "/src/Tag" + day + ".java");
 		String code = Files.readString(filePath2);
 
-		Path filePath3 = Path.of("/home/marek/Dokumente/IT/AdventOfCode2022/Tag01/input.txt");
+		Path filePath3 = Path.of("/home/marek/Dokumente/IT/AdventOfCode2022/Tag" + String.format("%02d", day) + "/input.txt");
 		String input = Files.readString(filePath3);
 
-		Path filePath4 = Path.of("/home/marek/Dokumente/IT/AdventOfCode2022/Tag01/output.txt");
+		Path filePath4 = Path.of("/home/marek/Dokumente/IT/AdventOfCode2022/Tag" + String.format("%02d", day) + "/output.txt");
 		String output = Files.readString(filePath4);
 
 		newtemp = temp.replace("CODE", code);
