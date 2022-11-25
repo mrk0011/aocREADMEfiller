@@ -1,5 +1,5 @@
-# Day 1
-### [Task](https://adventofcode.com/2015/day/1)
+# Day DAY
+### [Task](https://adventofcode.com/2015/day/DAY)
 ## Code
 ```java
 CODE
