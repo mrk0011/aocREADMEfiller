@@ -7,7 +7,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Scanner;
 
-public class Test {
+public class Filler {
 
 	public static void main(String[] args) throws IOException {
 		Scanner sc = new Scanner(System.in);
