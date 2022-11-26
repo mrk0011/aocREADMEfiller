@@ -1,16 +1,16 @@
-# Day DAY
-### [Task](https://adventofcode.com/2015/day/DAY)
+# Day [DAY]
+### [Task](https://adventofcode.com/2015/day/[DAY])
 ## Code
 ```java
-CODE
+[CODE]
 ```
 
 ## Input
 ```
-INPUT
+[INPUT]
 ```
 
 ## Output
 ```
-OUTPUT
+[OUTPUT]
 ```

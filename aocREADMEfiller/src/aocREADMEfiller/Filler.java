@@ -32,14 +32,13 @@ public class Filler {
 
 		Path filePath4 = Path.of("/home/marek/Dokumente/IT/AdventOfCode" + year + "/Tag" + String.format("%02d", day) + "/output.txt");
 		String output = Files.readString(filePath4);
-		
-		
-		newtemp = temp.replace("CODE", code);
-		temp = newtemp.replace("INPUT", input);
-		newtemp = temp.replace("OUTPUT", output);
-		temp = newtemp.replace("DAY", "" + day);
+				
+		newtemp = temp.replace("[CODE]", code);
+		temp = newtemp.replace("[INPUT]", input);
+		newtemp = temp.replace("[OUTPUT]", output);
+		temp = newtemp.replace("[DAY]", "" + day);
 
-		FileWriter myWriter = new FileWriter(new File("/home/marek/Dokumente/IT/AdventOfCode" + year + "/Tag01/README.md"));
+		FileWriter myWriter = new FileWriter(new File("/home/marek/Dokumente/IT/AdventOfCode" + year + "/Tag" + String.format("%02d", day) + "/README.md"));
 		myWriter.write(temp);
 		
 		myWriter.close();
